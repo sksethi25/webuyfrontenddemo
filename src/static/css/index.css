@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  padding: 30px;
+}
+
+.width10{
+  width: 10% !important;
+}
+.width20{
+  width: 20% !important;
+}
+.width30{
+  width: 30% !important;
+}
+.width40{
+  width: 40% !important;
+}
+.width50{
+  width: 50% !important;
+}
+.width60{
+  width: 60% !important;
+}
+.width70{
+  width: 70% !important;
+}
+.width90{
+  width: 90% !important;
+}
+.width80{
+  width: 80% !important;
+}
+.width100{
+  width: 100% !important;
+}
+.nopad{
+  margin: 0 !important;;
+  padding: 0 !important;;
+}
+.pad0{
+  padding: 0px;
+}
+.padt2{
+  padding-top: 2px !important;
+}
+.padt4{
+  padding-top: 4px !important;
+}
+.padR0{
+  padding: 0px;
+}
+.pad10{
+  padding: 10px !important;
+}
+.pad14{
+  padding: 14px;
+}
+.padl10{
+  padding-left: 10px !important;
+}
+.marl10{
+  margin-left: 10px;
+}
+.marb20{
+  margin-bottom: 20px;
+}
+.marl0{
+  margin-left: 0;
+}
+.margin0{
+  margin:0;
+}
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  height: 200px; /* only if you want fixed height */
+}
+/*  colos */
+
+.bgred{
+  background: red
+}
+.bgorg{
+  background: orange
+}
+.bggrey{
+  background: #eaeaea;
+}
+.bgblue{
+  background: #5da0e7;
+}
+.border-right{
+  border-right: 1px solid #cccccc;
+}
+
+.float-l {
+  float: left;
+}
+
+.font12{
+  font-size: 12px;
+}
+.font6{
+  font-size: 6px;
+}
+
+.bold{
+  font-weight: bold;
+}
+.font10{
+  font-size: 10px;
+}
+.font8{
+  font-size: 8px;
+}
+.font18{
+  font-size: 18px;
+}
+.fontgrey{
+  color: grey;
+}
+.fontblue{
+  color: #5da0e7;
+}
+.fontwhite{
+  color: white;
+}
+
+.bottom-fixed{
+  position: absolute;
+  right: 15px;
+  left: 15px;
+  bottom: 0;
+  padding: 4px;
+  text-align: center;
+}
+
+.feature-label{
+  position: absolute;
+  top: 5px;
+  padding: 7px;
+  font-size: 8px;
+  font-weight: bold;
+  color: white;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-style: dashed;
+  border-width: 1px;
+  border-left: none;
+  text-transform: uppercase;
+}
+
+.warning {
+  background: #f4b233;
+}
+
+.green {
+  background: #00da89;
+}
+
+.card_root{
+    min-width: 275;
+  }
+
+.bottom-bar-selected-tab{  
+  background-color:#00da89 !important;
+  color:#FFF !important;
+}
+
+.bottom-bar-tab{
+  color:#FFF !important;
+}
+
+.bottom-bar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  top: auto;
+  background-color:#2b7df7 !important;
+  color:#FFF;
+}
+
+.full-width{
+   width: 100%
+}
+
+.side-drawer-header{
+  text-align:center;
+  background-color:#2b7df7;
+  display:flex;
+  justify-content:space-between;
+  color:#FFF;   
+}
+
+.side-drawer-heading{
+  font-weight:Bold
+}
+
+.dropdownformControl{
+  margin: 1px;
+  min-width: 200px;
+  width:100%;
+}
+
+.card-search-button{
+  background-color:#2b7df7 !important;
+  color:#FFF !important;
+  margin-top:30px !important;
+}
+.card-search-button-changed{
+  background-color:#00da89 !important;
+  color:#FFF !important;
+  margin-top:30px !important;
+}
+.button_container{
+  text-align: center;
+}
+
+.card_search_button-able{
+  background-color:#00da89 !important;
+  color:#FFF !important;
+}
+
+.appbar-root{
+  flex-grow: 1;
+}
+
+.primary-bg{
+  background-color:#2b7df7 !important;
+}
+
+.mr16{
+  margin-right: 16px;
+}
+.mrt7{
+  margin-top:7px;
+}
