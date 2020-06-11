@@ -7,7 +7,7 @@ let logout = async function (args)
    		return response.data;
 	}
 	catch(error){
-		if(error.response !="undefined" && error.response.data !="undefined"){
+		if(error.response !=undefined && error.response.data !=undefined){
 			let apiError = error.response.data;
 			return apiError;
 		}
